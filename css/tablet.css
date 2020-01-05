@@ -1,0 +1,62 @@
+@media screen and (max-width: 1300px) and (min-width: 600px) {
+  .header {
+    height: 800px;
+    padding: 50px 5%; }
+    .header .container .header__menu {
+      -ms-grid-columns: 1fr 70%;
+      grid-template-columns: 1fr 70%; }
+      .header .container .header__menu .menu__logo {
+        width: 55px; }
+  .main .about {
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    -ms-grid-rows: (25%)[5];
+    grid-template-rows: repeat(5, 25%); }
+    .main .about .about__text {
+      -ms-grid-row: 1;
+      grid-row-start: 1;
+      -ms-grid-row-span: 2;
+      grid-row-end: 3; }
+      .main .about .about__text .text__wrapper {
+        max-width: 80%; }
+        .main .about .about__text .text__wrapper .text__title {
+          line-height: 85px; }
+        .main .about .about__text .text__wrapper .text {
+          font-size: 2.5vw; }
+    .main .about .second {
+      -ms-grid-row: 2;
+      grid-row-start: 2;
+      -ms-grid-row-span: 1;
+      grid-row-end: 3; }
+    .main .about .long__img {
+      -ms-grid-column: 1;
+      grid-column-start: 1;
+      -ms-grid-row: 3;
+      grid-row-start: 3;
+      -ms-grid-row-span: 1;
+      grid-row-end: 4; }
+    .main .about .about__photo {
+      background-color: #3624EA; }
+      .main .about .about__photo .photo {
+        left: -15%; }
+    .main .about .about__text-photo .text__title {
+      font-size: 3.3vw; }
+    .main .about .about__text-photo .text {
+      font-size: 2vw; }
+    .main .about .about__text-photo .text__link {
+      font-size: 2.5vw;
+      margin: 0;
+      width: 68%;
+      height: 57px;
+      margin-bottom: 10%; }
+  .main .contact {
+    height: 1100px; }
+    .main .contact .contact__text {
+      max-width: 90%;
+      -ms-grid-columns: 48% 50%;
+      grid-template-columns: 48% 50%; }
+      .main .contact .contact__text .text__title {
+        font-size: 6vw;
+        line-height: 80px; }
+      .main .contact .contact__text .text {
+        line-height: 40px; } }
