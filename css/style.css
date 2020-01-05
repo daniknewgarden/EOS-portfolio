@@ -4,7 +4,8 @@
   box-sizing: border-box;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
-  transition: .3s all; }
+  transition: .3s all;
+  border: 1px solid red; }
 
 a {
   text-decoration: none; }
@@ -265,7 +266,7 @@ body {
         text-align: center; }
         .footer .footer__menu .menu__links .link a {
           color: #ffffff;
-          font-size: 20px;
+          font-size: 17px;
           font-weight: 700;
           line-height: 48px; }
           .footer .footer__menu .menu__links .link a:hover {

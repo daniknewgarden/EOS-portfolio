@@ -1,0 +1,86 @@
+@media screen and (max-width: 700px) and (min-width: 200px) {
+    .header {
+        height: 750px;
+        padding: 30px 5%;
+        background-position: 40% 50%;
+
+        .header__menu {
+            .menu__logo {
+                width: 50px;
+            }
+
+            .menu__links {
+                display: none!important;
+            }
+        }
+    }
+    .main{
+        .about{
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(7, 414px);
+                .about__text{
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                        .text__wrapper{
+                            max-width: 90%;
+                                .text__title{
+                                    text-align: center;
+                                    font-size: 10vw;
+                                }
+                                .text{
+                                    font-size: 5vw;
+                                }
+                        }
+                }
+                .long__img {
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    grid-row-start: 5;
+                }
+                .about__photo{
+                    background-color: #3624ea;
+                    grid-row-start: 6;
+                    align-content: center;
+                        .photo{
+                            left: 0%;
+                        }
+                }
+                .about__text-photo{
+                    text-align: center;
+                    grid-row-start: 7;
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    justify-content: center;
+                        .text__title{
+                            margin: 0;
+                            max-width: 90%;
+                            font-size: 6vw;
+                        }
+                        .text{
+                            max-width: 90%;
+                            font-size: 4vw;
+                        }
+                        .text__link{
+                            margin: 2%;
+                            width: 300px;
+                        }
+                }
+        }
+        .contact{
+            .contact__text{
+                grid-template-columns: 100%;
+                grid-template-rows: 1fr 1fr;
+                max-width: 97%;
+                .text{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .footer{
+        .footer__menu{
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@media screen and (max-width: 700px) and (min-width: 200px) {
+  .header {
+    height: 750px;
+    padding: 30px 5%;
+    background-position: 40% 50%; }
+    .header .header__menu .menu__logo {
+      width: 50px; }
+    .header .header__menu .menu__links {
+      display: none !important; }
+  .main .about {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    -ms-grid-rows: (414px)[7];
+    grid-template-rows: repeat(7, 414px); }
+    .main .about .about__text {
+      -ms-grid-row: 1;
+      grid-row-start: 1;
+      -ms-grid-row-span: 2;
+      grid-row-end: 3; }
+      .main .about .about__text .text__wrapper {
+        max-width: 90%; }
+        .main .about .about__text .text__wrapper .text__title {
+          text-align: center;
+          font-size: 10vw; }
+        .main .about .about__text .text__wrapper .text {
+          font-size: 5vw; }
+    .main .about .long__img {
+      -ms-grid-column: 1;
+      grid-column-start: 1;
+      -ms-grid-column-span: 1;
+      grid-column-end: 2;
+      -ms-grid-row: 5;
+      grid-row-start: 5; }
+    .main .about .about__photo {
+      background-color: #3624ea;
+      -ms-grid-row: 6;
+      grid-row-start: 6;
+      -ms-flex-line-pack: center;
+      align-content: center; }
+      .main .about .about__photo .photo {
+        left: 0%; }
+    .main .about .about__text-photo {
+      text-align: center;
+      -ms-grid-row: 7;
+      grid-row-start: 7;
+      -ms-grid-column: 1;
+      grid-column-start: 1;
+      -ms-grid-column-span: 1;
+      grid-column-end: 2;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .main .about .about__text-photo .text__title {
+        margin: 0;
+        max-width: 90%;
+        font-size: 6vw; }
+      .main .about .about__text-photo .text {
+        max-width: 90%;
+        font-size: 4vw; }
+      .main .about .about__text-photo .text__link {
+        margin: 2%;
+        width: 300px; }
+  .main .contact .contact__text {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 97%; }
+    .main .contact .contact__text .text {
+      text-align: center; }
+  .footer .footer__menu {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
