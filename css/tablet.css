@@ -23,7 +23,7 @@
           line-height: 85px; }
         .main .about .about__text .text__wrapper .text {
           font-size: 2.5vw; }
-    .main .about .second {
+    .main .about .second__img {
       -ms-grid-row: 2;
       grid-row-start: 2;
       -ms-grid-row-span: 1;
@@ -35,15 +35,15 @@
       grid-row-start: 3;
       -ms-grid-row-span: 1;
       grid-row-end: 4; }
-    .main .about .about__photo {
+    .main .about .about__photograph {
       background-color: #3624EA; }
-      .main .about .about__photo .photo {
+      .main .about .about__photograph .photo {
         left: -15%; }
-    .main .about .about__text-photo .text__title {
+    .main .about .about__photograph-text .text__title {
       font-size: 3.3vw; }
-    .main .about .about__text-photo .text {
+    .main .about .about__photograph-text .text {
       font-size: 2vw; }
-    .main .about .about__text-photo .text__link {
+    .main .about .about__photograph-text .text__link {
       font-size: 2.5vw;
       margin: 0;
       width: 68%;

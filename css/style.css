@@ -4,8 +4,7 @@
   box-sizing: border-box;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
-  transition: .3s all;
-  border: 1px solid red; }
+  transition: .3s all; }
 
 a {
   text-decoration: none; }
@@ -14,6 +13,7 @@ li {
   list-style: none; }
 
 body {
+  background-color: #000;
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif; }
@@ -67,11 +67,11 @@ body {
               color: #18f7ef; }
     .header .container .header__title {
       width: 100%; }
-    .header .container .mouse {
+    .header .container .scroll {
       display: -ms-grid;
       display: grid;
       justify-items: center; }
-      .header .container .mouse .mouse__text {
+      .header .container .scroll .scroll__text {
         color: #ffffff;
         font-size: 18px;
         font-weight: 400;
@@ -139,18 +139,19 @@ body {
     grid-column-start: 2;
     -ms-grid-column-span: 2;
     grid-column-end: 4; }
-  .main .about .about__photo {
+  .main .about .about__photograph {
     display: -ms-grid;
     display: grid;
     -ms-grid-column-span: 2;
     grid-column-end: 2;
     -ms-flex-line-pack: end;
-    align-content: end; }
-    .main .about .about__photo .photo {
+    align-content: end;
+    background-color: #fff; }
+    .main .about .about__photograph .photo {
       width: 100%;
       position: relative;
       left: 20%; }
-  .main .about .about__text-photo {
+  .main .about .about__photograph-text {
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-column-span: 2;
@@ -163,18 +164,18 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     background: #3624ea; }
-    .main .about .about__text-photo .text__title {
+    .main .about .about__photograph-text .text__title {
       color: #ffffff;
       font-size: 2.64vw;
       font-weight: 700;
       line-height: 102.97px; }
-    .main .about .about__text-photo .text {
+    .main .about .about__photograph-text .text {
       color: #ffffff;
       max-width: 712px;
       font-size: .95vw;
       font-weight: 700;
       line-height: 48px; }
-    .main .about .about__text-photo .text__link {
+    .main .about .about__photograph-text .text__link {
       margin-top: 35px;
       display: -ms-grid;
       display: grid;
@@ -191,7 +192,7 @@ body {
       line-height: 48px;
       text-transform: uppercase;
       border: 5px solid #ffffff; }
-      .main .about .about__text-photo .text__link:hover {
+      .main .about .about__photograph-text .text__link:hover {
         color: #18f7ef;
         border: 10px solid #18f7ef; }
 

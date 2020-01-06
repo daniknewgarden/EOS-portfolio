@@ -1,76 +1,94 @@
 @media screen and (max-width: 1300px) and (min-width: 700px) {
-    .header{
+    .header {
         height: 800px;
         padding: 50px 5%;
-            .container{
-                .header__menu{
-                    grid-template-columns: 1fr 70%;
-                    .menu__logo{
-                        width: 55px;
+
+        .container {
+            .header__menu {
+                grid-template-columns: 1fr 70%;
+
+                .menu__logo {
+                    width: 55px;
+                }
+            }
+        }
+    }
+
+    .main {
+        .about {
+            grid-template-columns: 50% 50%;
+            grid-template-rows: repeat(5, 25%);
+
+            .about__text {
+                grid-row-start: 1;
+                grid-row-end: 3;
+
+                .text__wrapper {
+                    max-width: 80%;
+
+                    .text__title {
+                        line-height: 85px;
+                    }
+
+                    .text {
+                        font-size: 2.5vw;
                     }
                 }
             }
-    }
-    .main{
-        .about{
-            grid-template-columns: 50% 50%;
-            grid-template-rows: repeat(5, 25%);
-                .about__text{
-                    grid-row-start: 1;
-                    grid-row-end: 3;
-                        .text__wrapper{
-                            max-width: 80%;
-                            .text__title{
-                                line-height: 85px;
-                            }
-                            .text{
-                                font-size: 2.5vw;
-                            }
-                        }
+
+            .second__img {
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .long__img {
+                grid-column-start: 1;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .about__photograph {
+                background-color: #3624EA;
+
+                .photo {
+                    left: -15%;
                 }
-                .second{
-                    grid-row-start: 2;
-                    grid-row-end: 3;
+            }
+
+            .about__photograph-text {
+                .text__title {
+                    font-size: 3.3vw;
                 }
-                .long__img {
-                    grid-column-start: 1;
-                    grid-row-start: 3;
-                    grid-row-end: 4;
+
+                .text {
+                    font-size: 2vw;
                 }
-                .about__photo{
-                    background-color: #3624EA;
-                    .photo{
-                        left: -15%;
-                    }
+
+                .text__link {
+                    font-size: 2.5vw;
+                    margin: 0;
+                    width: 68%;
+                    height: 57px;
+                    margin-bottom: 10%;
                 }
-                .about__text-photo{
-                    .text__title{
-                        font-size: 3.3vw;
-                    }
-                    .text{
-                        font-size: 2vw;
-                    }
-                    .text__link{
-                        font-size: 2.5vw;
-                        margin: 0;
-                        width: 68%;
-                        height: 57px;
-                        margin-bottom: 10%;
-                    }
-                }
+            }
         }
-        .contact{
+
+        .contact {
             height: 1100px;
-            .contact__text{
+
+            .contact__text {
                 max-width: 90%;
                 grid-template-columns: 48% 50%;
-                    .text__title{
-                        font-size: 6vw;
-                        line-height: 80px;
-                    }
-                    .text{
-                        line-height: 40px;
-                    }
+
+                .text__title {
+                    font-size: 6vw;
+                    line-height: 80px;
+                }
+
+                .text {
+                    line-height: 40px;
+                }
             }
         }
     }

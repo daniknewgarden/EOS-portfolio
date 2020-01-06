@@ -5,7 +5,6 @@
 * {
     box-sizing: border-box;
     transition: .3s all;
-    border: 1px solid red;
 }
 
 a {
@@ -17,6 +16,7 @@ li {
 }
 
 body {
+    background-color: #000;
     padding: 0;
     margin: 0;
     font-family: 'Montserrat',
@@ -76,11 +76,11 @@ body {
             width: 100%;
         }
 
-        .mouse {
+        .scroll {
             display: grid;
             justify-items: center;
 
-            .mouse__text {
+            .scroll__text {
                 color: $white;
                 font-size: 18px;
                 font-weight: 400;
@@ -103,6 +103,7 @@ body {
             justify-items: center;
             background: $unblue;
             padding: 5% 0;
+
             .text__wrapper {
                 max-width: 64%;
 
@@ -137,10 +138,11 @@ body {
                     font-weight: 700;
                     line-height: 48px;
                     text-transform: uppercase;
-                        &:hover{
-                            border: 10px solid #fff;
-                            color: $white;
-                        }
+
+                    &:hover {
+                        border: 10px solid #fff;
+                        color: $white;
+                    }
                 }
             }
         }
@@ -160,10 +162,12 @@ body {
             grid-column-end: 4;
         }
 
-        .about__photo {
+        .about__photograph {
             display: grid;
             grid-column-end: 2;
             align-content: end;
+            background-color: #fff;
+
             .photo {
                 width: 100%;
                 position: relative;
@@ -171,7 +175,7 @@ body {
             }
         }
 
-        .about__text-photo {
+        .about__photograph-text {
             grid-column-start: 2;
             grid-column-end: 4;
             display: grid;
