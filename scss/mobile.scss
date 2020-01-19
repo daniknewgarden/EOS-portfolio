@@ -37,43 +37,49 @@
                     grid-column-end: 2;
                     grid-row-start: 5;
                 }
-                .about__photo{
+                .about__photograph {
                     background-color: #3624ea;
                     grid-row-start: 6;
                     align-content: center;
-                        .photo{
-                            left: 0%;
-                        }
+                    .photo{
+                        left: 0px;
+                        width: 95%;
+                    }
                 }
-                .about__text-photo{
+                .about__photograph-text {
                     text-align: center;
                     grid-row-start: 7;
                     grid-column-start: 1;
                     grid-column-end: 2;
-                    justify-content: center;
-                        .text__title{
-                            margin: 0;
-                            max-width: 90%;
-                            font-size: 6vw;
-                        }
-                        .text{
-                            max-width: 90%;
-                            font-size: 4vw;
-                        }
-                        .text__link{
-                            margin: 2%;
-                            width: 300px;
-                        }
+                            .text__title{
+                                margin: 0;
+                                max-width: 90%;
+                                font-size: 6vw;
+                            }
+                            .text{
+                                max-width: 90%;
+                                font-size: 4vw;
+                            }
+                            .text__link{
+                                margin: 2%;
+                                width: 300px;
+                            }
+                        }    
                 }
         }
         .contact{
+            height: 1700px!important;
+            width: 100%;
             .contact__text{
-                grid-template-columns: 100%;
+                grid-template-columns: 1fr!important;
                 grid-template-rows: 1fr 1fr;
-                max-width: 97%;
-                .text{
-                    text-align: center;
-                }
+                max-width: 90%;
+                    .text__title{
+                        font-size: 11vw!important;
+                    }
+                    .text{
+                        text-align: center;
+                    }
             }
         }
     }
@@ -83,4 +89,3 @@
             justify-content: center;
         }
     }
-}

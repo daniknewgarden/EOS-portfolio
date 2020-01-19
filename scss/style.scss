@@ -169,7 +169,8 @@ body {
             background-color: #fff;
 
             .photo {
-                width: 100%;
+                max-height: 100%;
+                max-width: 100%;
                 position: relative;
                 left: 20%;
             }
@@ -187,7 +188,6 @@ body {
                 color: $white;
                 font-size: 2.64vw;
                 font-weight: 700;
-                line-height: 102.97px;
             }
 
             .text {
@@ -275,7 +275,7 @@ body {
     background: #000;
 
     .footer__menu {
-        width: 525px;
+        width: 605px;
 
         .menu__links {
             padding: 0;
@@ -285,7 +285,7 @@ body {
 
 
             .link {
-                margin: 0 2%;
+                margin: 0;
                 text-align: center;
 
                 a {
